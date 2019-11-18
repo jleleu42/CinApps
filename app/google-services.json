@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "433947993007",
+    "firebase_url": "https://cinapps-42.firebaseio.com",
+    "project_id": "cinapps-42",
+    "storage_bucket": "cinapps-42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433947993007:android:7e291945bc841c7e96855a",
+        "android_client_info": {
+          "package_name": "com.example.cinapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433947993007-p5ga8k5gjd8b5llv222vtic010hjhsm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSVYKGAzS-aqoNAHnzcdNiAA6GISgQhbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433947993007-p5ga8k5gjd8b5llv222vtic010hjhsm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

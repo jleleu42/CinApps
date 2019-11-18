@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CinApps</string>
+    <string name="add">Ajouter</string>
+    <string name="titre">Titre du film</string>
+    <string name="date">Date de projection :</string>
+    <string name="note_scenario">Note scénario :</string>
+    <string name="note_realisation">Note réalisation :</string>
+    <string name="note_musique">Note musique :</string>
+    <string name="desc">Description :</string>
+    <string name="add_button_text">Ajouter le film</string>
+
+</resources>

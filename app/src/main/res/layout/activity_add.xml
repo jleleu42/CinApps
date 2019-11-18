@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".AddActivity">
+
+
+    <EditText
+         android:id="@+id/et_edit_title"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="@string/titre"
+         android:inputType="textPersonName|textCapWords"
+         android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:paddingRight="16dp"/>
+
+        <EditText
+            android:id="@+id/et_edit_date"
+            android:contentDescription="@string/date"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date" />
+
+      <!--  <DatePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />-->
+
+       <!-- <TimePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>-->
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/note_scenario"
+            android:paddingRight="16dp"/>
+
+        <EditText
+            android:id="@+id/et_edit_scenario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/note_realisation"
+            android:paddingRight="16dp"/>
+
+        <EditText
+            android:id="@+id/et_edit_realisation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/note_musique"
+            android:paddingRight="16dp"/>
+
+        <EditText
+            android:id="@+id/et_edit_musique"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/desc"
+            android:paddingRight="16dp"/>
+
+        <EditText
+            android:id="@+id/et_edit_desc"
+            android:layout_width="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:layout_height="wrap_content"
+            android:ems="10"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add_to_filmlist_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:onClick="addFilmList"
+        android:text="@string/add_button_text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Inverse" />
+
+
+
+</LinearLayout>
